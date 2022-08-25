@@ -122,8 +122,7 @@ block that handles the 'pickle.load' process---suppressing an expected
 error if a list isn't found, and giving the user a warning (but not
 ending the program) for other errors (Figure 1).
 
-![](media/image1.png){width="6.121562773403324in"
-height="4.120282152230971in"}
+![Figure 1 - \"read_data_from_file\" function demonstrates use of pickle and exception handling](figure1.png "Figure 1 - \"read_data_from_file\" function demonstrates use of pickle and exception handling")
 
 **Figure 1 - \"read_data_from_file\" function demonstrates use of pickle
 and exception handling**
@@ -135,8 +134,9 @@ subsequent pickle.dump function will fail. I then catch that failure
 (this is why I needed to import the "io" class) and use it to trigger a
 message to the user indicating that their sandwich has been 'lost'.
 
-![](media/image2.png){width="5.439477252843394in"
-height="2.9643996062992124in"}
+![Figure 2 - \"fail_to_pickle\" function - a second example of pickle
+and error handling](figure2.png "Figure 2 - \"fail_to_pickle\" function - a second example of pickle
+and error handling")
 
 **Figure 2 - \"fail_to_pickle\" function - a second example of pickle
 and error handling**
@@ -153,10 +153,9 @@ and the collection of user messages in a dedicated function
 You can see a screenshot of the program running in Powershell in Figure
 3 below:
 
-![Text Description automatically
-generated](media/image3.png){width="6.5in" height="5.70625in"}
+![Figure 3 -- \"Bracket's Sandwich Shop" running in PowerShell](figure3.png "Figure 3 -- \"Bracket's Sandwich Shop\" running in PowerShell")
 
-**Figure 3 -- "Bracket's Sandwich Shop" running in PowerShell**
+**Figure 3 -- \"Bracket's Sandwich Shop\" running in PowerShell**
 
 ### Running in PyCharm
 
@@ -165,8 +164,9 @@ operation---this time in PyCharm. This time I decided to delete the
 'ToGo' file to demonstrate how the exception for a missing file is used
 to prompt a friendly greeting ("New Customer..."):
 
-![](media/image4.png){width="4.151534339457568in"
-height="5.227469378827647in"}
+![Figure 4 - Program operating in PyCharm. What topping should I add
+next..\?](figure4.png "Figure 4 - Program operating in PyCharm. What topping should I add
+next..\?")
 
 **Figure 4 - Program operating in PyCharm. What topping should I add
 next..?**
